@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: thor
+logging:
+  level:
+    root: info
+    org.springframework.core.codec: debug
+    org.springframework.web.reactive.function.client: debug
+    org.springframework.http: debug
+
